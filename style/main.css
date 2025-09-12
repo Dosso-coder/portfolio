@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Bebas Neue:wght@400;600&display=swap');
+
+/* Pages */
+
+
+/* Pages */
+@import 'pages/accuiel.css';
+@import 'pages/projets.css';
+@import 'pages/contact.css';
+@import 'pages/propos.css';
+
+
+/*  module*/
+@import'module/appBar.css';
+
+
+/* Design System */
+:root {
+    /* couleurs */
+    --noire:#0000;
+    --beige:#F5E1CE;
+    --gris:#9C9C9C;
+    --violet:#CB6DF0;
+
+
+
+    /* text configuration */
+    --header-font:'Montserrat';
+    --body-font:'Montserrat';
+    --body-highlight-font:'Metal Mania';
+    
+
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --header-font-weight: 400;
+
+
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --header-font-size: 4.5rem;
+
+
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: 5.375rem;
+    --title-line-height: 1.75rem;
+    
+}
+
+body{
+    background-color: var(--beige);
+    font-family: var(--body-font);
+    font-weight: var(--body-font-weight);
+    font-size: var(--body-font-size);
+    color: var(--noire);
+    line-height: var(--body-line-height);
+
+}
+
+h1{
+    color: var(--noire);
+    font-family: var(--body-highlight-font);
+    font-size: var(--header-font-size);
+    line-height: var(--header-line-height);
+}
+
+
