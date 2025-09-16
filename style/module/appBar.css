@@ -1,5 +1,5 @@
 .navigation{
-     position: fixed;           
+    position: fixed;           
      top: 30px;                   
      right: 0;                   
     padding: 10px 60px;
@@ -9,7 +9,7 @@
     color: #000;
     text-decoration: none;
     font-family: var(--body-font);
-    
+    margin-top: 20px;
     
 
 }

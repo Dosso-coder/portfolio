@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Bebas Neue:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Island+Moments&family=Italianno&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* Pages */
+
 
 
 /* Pages */
@@ -27,8 +28,8 @@
     /* text configuration */
     --header-font:'Montserrat';
     --body-font:'Montserrat';
-    --body-highlight-font:'Metal Mania';
-    
+    --body-highlight-font:'Manrope';
+    --logo-font:'island moments';
 
     --body-font-weight: 400;
     --body-highlight-font-weight: 600;
@@ -59,10 +60,15 @@ body{
 }
 
 h1{
-    color: var(--noire);
+    color:var(--noire);
     font-family: var(--body-highlight-font);
     font-size: var(--header-font-size);
     line-height: var(--header-line-height);
 }
-
+h2{
+    color: var(--noire);
+    font-family: var(--body-highlight-font);
+    font-weight: var(--body-highlight-font-weight);
+    font-size: var(--body-highlight-font-size);
+}
 

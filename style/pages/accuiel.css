@@ -1,2 +1,82 @@
+@import url('../main.css');
+:root {
+    /* couleurs */
+    --couleur-noire:#0000;
+    --beige:#F5E1CE;
+    --gris:#9C9C9C;
+    --violet:#CB6DF0;
+}
 
+p{
+    color: #000;
+}
 
+.introduction{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 80px;
+    gap: 25px;
+    
+}
+.introduction h1{
+    margin-bottom: 10px;
+    color: #000;
+}
+.introduction h2{
+    color: #000;
+    margin-top: 20px;
+
+}
+.introduction p{
+    width: 60%;
+    margin-left: 3rem;
+    margin-top: 30px;
+}
+.presentation{
+    margin-top:0px;
+    display: flex;
+    flex-direction: column;
+}
+.projet{
+    border-radius: 40px;
+    background-color: var(--gris);
+    width: 10em;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 8rem;
+    margin-top: 20px;
+}
+.projet a{
+    color:#000;
+    font-family:'montserrat';
+    text-decoration: none;
+}
+.profil{
+    height: 500px;
+    width: 500px;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+h1{
+    color: var(--couleur-noire);
+    margin-left: 8rem;
+    margin-bottom: 4rem;
+    
+}
+h2{
+    color: var(--noire);
+    margin: 10px;
+    margin-left: 6rem;
+    font-size: 2.5rem;
+}
+span{
+    color: var(--violet);
+}
+.paragraphe{
+    margin-left: 2rem;
+    margin-top: 20px;
+    
+}

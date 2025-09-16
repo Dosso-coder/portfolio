@@ -1,0 +1,61 @@
+
+@import url('../main.css');
+:root {
+    /* couleurs */
+    --noire:#0000;
+    --beige:#F5E1CE;
+    --gris:#9C9C9C;
+    --violet:#CB6DF0;
+}
+.contenue{
+    width: 100%;
+    text-align: center;
+}
+.contenue h1{
+    color: black;
+    margin-bottom: 40px;
+    margin-top: 130px;
+}
+.contenue p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compétences h2{
+    color: black;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.compétences p{
+    border-radius: 30px;
+    background-color: var(--gris);
+    width: 10em;
+    padding: 10px;
+
+}
+ .compétence {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.centres h2{
+    color: #000;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.centres p{
+    border-radius: 30px;
+    background-color: var(--gris);
+    padding: 10px;
+    
+}
+.centre{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
