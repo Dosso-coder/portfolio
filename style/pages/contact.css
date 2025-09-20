@@ -48,3 +48,19 @@ input[type=submit]{
     padding: 20px 30px;
     color: #000;
 }
+.envoyer:hover{
+    background-color: #000;
+    color: white;
+}
+
+
+@media screen and (max-width: 996px) {
+    .formulaire {
+      padding: 50px 20px;
+    }
+  
+    .non-email {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
